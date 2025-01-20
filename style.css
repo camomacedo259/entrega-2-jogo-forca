@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #b9c7d4;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+#exibicao-palavra {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+#letras-chutadas {
+  font-size: 2em;
+  color: #422ce6;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#mensagem {
+  display: none;
+}
+
+#entrada-letra {
+  font-size: 0.8em;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: rgb(22, 22, 22);
+  background-color: #d2e0d2;
+}
+
+#btn-chutar {
+  font-size: 1em;
+  padding: 10px 10px;
+  background-color: #2c8ce6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-chutar:hover {
+  background-color: #2c51e6;
+  color: white;
+}
+
+#botao-reiniciar {
+  display: none;
+  font-size: 1em;
+  margin: auto;
+  background-color: #2c8ce6;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#botao-reiniciar:hover {
+  background-color: #2c51e6;
+  color: white;
+}
